@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap");
 :root {
   --primary-background-color: #3a4663;
   --color-text: #fff;
@@ -16,7 +16,7 @@
   --buttons-box-shadow: #b3a497;
 }
 
-[data-theme='second'] {
+[data-theme=second] {
   --primary-background-color: #e6e6e6;
   --color-text: #36362c;
   --secondary-background-color: #d2cdcd;
@@ -33,7 +33,7 @@
   --buttons-box-shadow: #a79e91;
 }
 
-[data-theme='third'] {
+[data-theme=third] {
   --primary-background-color: #17062a;
   --color-text: #ffe53d;
   --secondary-background-color: #1e0936;
@@ -56,7 +56,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Spartan', sans-serif;
+  font-family: "Spartan", sans-serif;
 }
 
 html {
@@ -125,7 +125,7 @@ body {
 .calculator__header__toggle-switch .switcher .switch #switch2 + label::after,
 .calculator__header__toggle-switch .switcher .switch #switch3 + label::after {
   position: absolute;
-  content: '';
+  content: "";
   width: 25px;
   height: 2.6rem;
   top: 0;
@@ -162,7 +162,7 @@ body {
 .calculator__header__toggle-switch .switcher .switch__inner::after {
   position: absolute;
   display: block;
-  content: '';
+  content: "";
   top: 5px;
   left: 0;
   background-color: var(--ternary-background-color);
@@ -260,10 +260,10 @@ body {
   letter-spacing: -0.333333px;
 }
 .calculator__buttons .reset {
-  grid-column: 1 / span 2;
+  grid-column: 1/span 2;
 }
 .calculator__buttons .equal-sign {
-  grid-column: 3 / span 2;
+  grid-column: 3/span 2;
   background-color: var(--ternary-background-color);
   box-shadow: inset 0px -4px 0px var(--buttons-ternary-box-shadow);
   color: #ffffff;
@@ -304,3 +304,5 @@ body {
     letter-spacing: -0.266667px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
