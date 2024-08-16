@@ -6,8 +6,7 @@
     "sass": "^1.77.8"
   },
   "scripts": {
-    "sass": "sass sass/main.scss css/style.css",
-    "build": "sass sass/main.scss css/style.css"
+    "build": "sass sass/main.scss ./css/style.css"
   },
   "author": "James Thanawat",
   "license": "ISC"
