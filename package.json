@@ -1,0 +1,14 @@
+{
+  "name": "calculator-app-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "scripts": {
+    "sass": "node-sass sass/main.scss css/style.css -w",
+    "build": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "James Thanawat",
+  "license": "ISC"
+}
